@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace E4.İnharitance_Rules.Class
 {
-    internal class Student : User
+    public class Student : User
     {
+        public Student(string _userName,string _passWord,string _schoolNumber) : base(_userName,_passWord)
+        {
+            schoolNumber = _schoolNumber;
+        }
         public string schoolNumber { get; set; }
     }
 }

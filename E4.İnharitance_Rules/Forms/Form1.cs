@@ -1,4 +1,5 @@
-﻿using System;
+﻿using E4.İnharitance_Rules.Class;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,5 +17,8 @@ namespace E4.İnharitance_Rules
         {
             InitializeComponent();
         }
+
+        Student student = new Student("144","Yavuz","1234");
+
     }
 }
