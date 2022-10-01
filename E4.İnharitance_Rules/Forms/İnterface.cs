@@ -31,18 +31,16 @@ namespace E4.İnharitance_Rules.Forms
 
             Teacher teacher = new Teacher(txtBranh.Text, txtUserName.Text, txtPassword.Text);
             teachers.Add(teacher);
+
+            
+            foreach (Teacher Teachers in teachers)
+            {
+                lstTeacher.Items.Add($"Kullanıcı adı : {Teachers.userName} , Branş : {Teachers.branch}");
+            }
         }
 
         private void btnListTeacher_Click(object sender, EventArgs e)
         {
-
-
-
-            foreach (Teacher teacher in teachers)
-            {
-                lstTeacher.Items.Add($"Kullanıcı adı : {teacher.userName} , Branş : {teacher.branch}");
-            }
-
 
         }
     }
