@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace E4.İnharitance_Rules.Class
 {
-    public class User
+    public abstract class User
     {
 
 

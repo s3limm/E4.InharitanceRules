@@ -17,7 +17,7 @@ namespace E4.İnharitance_Rules
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new İnterface());
+            Application.Run(new Polymorphism());
         }
     }
 }
