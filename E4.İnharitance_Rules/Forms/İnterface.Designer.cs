@@ -35,7 +35,6 @@
             this.txtBranh = new System.Windows.Forms.TextBox();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.btnAddTeacher = new System.Windows.Forms.Button();
-            this.btnListTeacher = new System.Windows.Forms.Button();
             this.lstTeacher = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
@@ -96,24 +95,13 @@
             // btnAddTeacher
             // 
             this.btnAddTeacher.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnAddTeacher.Location = new System.Drawing.Point(498, 347);
+            this.btnAddTeacher.Location = new System.Drawing.Point(318, 373);
             this.btnAddTeacher.Name = "btnAddTeacher";
             this.btnAddTeacher.Size = new System.Drawing.Size(174, 48);
             this.btnAddTeacher.TabIndex = 3;
             this.btnAddTeacher.Text = "Add Teacher ";
             this.btnAddTeacher.UseVisualStyleBackColor = true;
             this.btnAddTeacher.Click += new System.EventHandler(this.btnAddTeacher_Click);
-            // 
-            // btnListTeacher
-            // 
-            this.btnListTeacher.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnListTeacher.Location = new System.Drawing.Point(12, 378);
-            this.btnListTeacher.Name = "btnListTeacher";
-            this.btnListTeacher.Size = new System.Drawing.Size(270, 60);
-            this.btnListTeacher.TabIndex = 4;
-            this.btnListTeacher.Text = "List Teacher";
-            this.btnListTeacher.UseVisualStyleBackColor = true;
-            this.btnListTeacher.Click += new System.EventHandler(this.btnListTeacher_Click);
             // 
             // lstTeacher
             // 
@@ -130,7 +118,6 @@
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.lstTeacher);
-            this.Controls.Add(this.btnListTeacher);
             this.Controls.Add(this.btnAddTeacher);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtBranh);
@@ -154,7 +141,6 @@
         private System.Windows.Forms.TextBox txtBranh;
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Button btnAddTeacher;
-        private System.Windows.Forms.Button btnListTeacher;
         private System.Windows.Forms.ListBox lstTeacher;
     }
 }

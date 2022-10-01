@@ -39,9 +39,5 @@ namespace E4.İnharitance_Rules.Forms
             }
         }
 
-        private void btnListTeacher_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
