@@ -18,7 +18,17 @@ namespace E4.İnharitance_Rules
             InitializeComponent();
         }
 
-        Student student = new Student("144","Yavuz","1234");
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Student student = new Student("144", "Yavuz", "1234");
+            ClassRoom classRoom = new ClassRoom();
+            Teacher teacher = new Teacher("Mathematics","Selim","1234");
 
+            classRoom.number = "1";
+            classRoom.character = "A";
+            student.classRoom = classRoom;
+            classRoom.GetFullName();
+            student.teacher.Add(teacher);
+        }
     }
 }
